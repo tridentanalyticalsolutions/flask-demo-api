@@ -36,17 +36,21 @@ docker-compose up
 
 > ex endpoint http://localhost:5000/V1/users /GET
 
-# Folder structure ofproject: 
-.
-+-- api
-|   +-- static
-|   +-- templates
-|   +-- init.py
-|   +-- config.py
-|   +-- user.py
-+-- db
-|   +-- Dockerfile
-+-- server.py
-+-- requirement.txt
-+-- Dockerfile
-+-- docker-compose.yml
+# Folder structure of project: 
+
+```bash
+├── api
+│   ├── static
+│   ├── templates
+│   ├── init.py
+│   ├── config.py
+│   ├── user.py
+├── db
+│   ├── Dockerfile
+├── README.md
+├── server.py
+├── requirement.txt
+├── docker-compose.yml
+└── Dockerfile
+```
+
